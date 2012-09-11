@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for Persian IMEs  -->
+
+    <string name="persian_ime_name">Persian (Farsi) IME</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.\u060C,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+    <!-- Preferences  -->
+    <string name="persian_ime_settings">Persian (Farsi) IME settings</string>
+
+    <string name="preferences">Preferences</string>
+
+    <string name="input_preferences">Input preferences</string>
+
+    <string name="title_select_suggestion_preference">Select suggestion</string>
+    <string name="summary_select_suggestion_preference">Select the highlighted word when space is pressed.</string>
+
+    <string name="display_preferences">Display preferences</string>
+
+    <string name="title_use_reduced_keys_preference">Use reduced keys</string>
+    <string name="summary_use_reduced_keys_preference">Turn on the experimental reduced keys keyboard.</string>
+
+    <string name="title_prefer_fullscreen_preference">Prefer fullscreen mode</string>
+    <string name="summary_prefer_fullscreen_preference">Always go to fullscreen mode when using input method.</string>
+
+    <string name="title_show_redundant_keyboard_preference">Always show</string>
+    <string name="summary_show_redundant_keyboard_preference">Show soft keyboard even when hard keyboard is open.</string>
+
+    <!-- Indicates that a word has been added to the dictionary -->
+    <string name="added_word"><xliff:g id="word">%s</xliff:g> added</string>
+</resources>
+

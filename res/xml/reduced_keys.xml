@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="0x0635" android:keyLabel="ص" android:horizontalGap="5%p"
+                android:keyEdgeFlags="left"/>
+        <Key android:codes="0x062B" android:keyLabel="ث"/>
+        <Key android:codes="0x0641" android:keyLabel="ف"/>
+        <Key android:codes="0x0639" android:keyLabel="ع"/>
+        <Key android:codes="0x0647" android:keyLabel="ه"/>
+        <Key android:codes="0x062D" android:keyLabel="ح" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="0x0633" android:keyLabel="س" android:horizontalGap="5%p"
+                android:keyEdgeFlags="left"/>
+        <Key android:codes="0x06CC" android:keyLabel="ی" android:popupKeyboard="@xml/popup" android:popupCharacters="ئی"/>
+        <Key android:codes="0x0644" android:keyLabel="ل"/>
+        <Key android:codes="0x0627" android:keyLabel="ا" android:popupKeyboard="@xml/popup" android:popupCharacters="ءإأآا"/>
+        <Key android:codes="0x0645" android:keyLabel="م"/>
+        <Key android:codes="0x06A9" android:keyLabel="ک" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="0x0637" android:keyLabel="ط" android:horizontalGap="5%p"
+                android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0631" android:keyLabel="ر"/>
+        <Key android:codes="0x062F" android:keyLabel="د"/>
+        <Key android:codes="0x0628" android:keyLabel="ب"/>
+        <Key android:codes="0x0648" android:keyLabel="و" android:popupKeyboard="@xml/popup" android:popupCharacters="ؤو"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+                android:keyWidth="18%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done"
+                android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="۱۲۳" android:keyWidth="15%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" android:keyWidth="30%p" android:isRepeatable="true"/>
+        <Key android:codes="46" android:keyLabel="! ؟ ، ."
+                android:popupKeyboard="@xml/popup" android:popupCharacters="!؟،."
+                android:keyWidth="15%p"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+                android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
+

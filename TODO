@@ -1,0 +1,11 @@
+TODO
+====
+
+- Look into using HarfBuzz
+- extract edit text, doesn't handle Enter key properly
+- readme activity, plus preferences button
+- left and right arrows on the Candidates strip
+- Pinglish mode
+- SMS: http://mobiforge.com/developing/story/sms-messaging-android
+- punctuation fixes: remove space before punctuation; turn two spaces into period-space; display punctuation in proper location
+

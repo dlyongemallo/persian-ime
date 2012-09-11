@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.example.android.inputmethod.persian"
+        android:versionCode="10"
+        android:versionName="1.0.0">
+
+    <application android:label="@string/persian_ime_name"
+                 android:icon="@drawable/app_persian_ime">
+
+        <!-- The actual Persian soft keyboard. -->
+        <service android:name="PersianInputMethodService"
+                 android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im"
+                       android:resource="@xml/method" />
+        </service>
+
+        <!-- The user settings preferences. -->
+        <activity android:name="Preferences"
+                  android:label="@string/persian_ime_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+</manifest>

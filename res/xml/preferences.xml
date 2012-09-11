@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/input_preferences">
+
+        <CheckBoxPreference
+                android:key="select_suggestion_checkbox_preference"
+                android:title="@string/title_select_suggestion_preference"
+                android:summary="@string/summary_select_suggestion_preference"
+                android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/display_preferences">
+
+        <CheckBoxPreference
+                android:key="use_reduced_keys_checkbox_preference"
+                android:title="@string/title_use_reduced_keys_preference"
+                android:summary="@string/summary_use_reduced_keys_preference"
+                android:defaultValue="false" />
+
+        <CheckBoxPreference
+                android:key="prefer_fullscreen_checkbox_preference"
+                android:title="@string/title_prefer_fullscreen_preference"
+                android:summary="@string/summary_prefer_fullscreen_preference"
+                android:defaultValue="false" />
+
+        <CheckBoxPreference
+                android:key="show_redundant_keyboard_checkbox_preference"
+                android:title="@string/title_show_redundant_keyboard_preference"
+                android:summary="@string/summary_show_redundant_keyboard_preference"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
