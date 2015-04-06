@@ -1,6 +1,11 @@
+IMPORTANT! PLEASE READ BEFORE INSTALLING: This app is obsolete and is provided for historical purposes only. It was created before Android had native support for Persian input. A newer Persian keyboard layout is already included in the Google Keyboard. Look under "Language & input" under "Settings".
+
+Before installing, check to see whether the Google Keyboard is already installed on your device. If not, try this: https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin
+
+--- original description follows ---
+
 Persian (Farsi, فارسی) soft keyboard in ISIRI 2901:1994 layout.  Shifted keys can be typed by long-pressing the keys on the soft keyboard.
 
 To configure, go to the "Locale & text" menu under "Settings".
 
 The package is available on the Android Marketplace.  It is a different application than the Persian IME which is bundled with Android JellyBean and later.
-
